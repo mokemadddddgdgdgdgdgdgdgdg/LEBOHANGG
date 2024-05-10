@@ -1,0 +1,13 @@
+th ,td {padding-top:10px;
+        padding-bottom:10px;
+        padding-left:40px;
+        padding-right:40px;}
+body {background-image:url("lovely.jpg");
+      background-position:center center;}
+
+h1,h2 {color:charcoal;}
+table {color:charcoal;}
+p     {color:charcoal;}
+
+
+.int {background-color:white;}

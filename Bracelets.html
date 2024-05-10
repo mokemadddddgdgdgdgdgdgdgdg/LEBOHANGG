@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>rings</title>
+    <style>
+        .product-Details {
+            flex: 1;
+            padding: 10px;
+            border: 2px solid black;
+        }
+        .comment-section {
+            margin-top: 20px;
+        }
+        .Comment-Box {
+            width: 100px;
+            padding: 10px;
+            border: 2px;
+        }
+        .comment-submit {
+            margin-top: 10px;
+            width: 100px;
+            padding: 5px;
+        }
+        h1 {
+            font-family: ravie;
+            text-align: center;
+        } 
+    </style>
+</head>
+<body>
+
+<h1>BRACELETS</h1>
+
+<a href="Products.html">PRODUCTS & SERVICES</a>
+
+<div class="container" style="display:flex;">
+
+<div class="comment-section">
+<form>
+    <textarea class="Comment-Box" placeholder="Leave a comment"></textarea>
+    <input type="Submit" class="comment-submit" value="submit">
+</form>
+</div>
+
+<div class="Product-Details" style="border: 2px solid black;">
+    <h2>ANIID BRACELET</h2>
+    <p>Description of a product</p>
+    <p>Availability: In stock</p>
+    <p>SKU: SSJb11234</p>
+    <p>Price: M2 000.00</p>
+    <p>Available colors: Gold</p>
+    <img src="brace1.jpeg" width="300" height="400">
+    <form action="add_to_cart.php" method="post">
+        <input type="hidden" name="product_name" value="ANIID BRACELET">
+        <input type="hidden" name="sku" value="SSJb11234">
+        <input type="hidden" name="price" value="2000.00">
+        <button type="submit">Add to Cart</button>
+    </form>
+</div>
+
+<div class="Product-Details" style="border: 2px solid black;">
+    <h2>ANIID BRACELET</h2>
+    <p>Description of a product</p>
+    <p>Availability: Stock</p>
+    <p>SKU: SSJb21234</p>
+    <p>Price: M3 500.00</p>
+    <p>Available colors: Gold</p>
+    <img src="brace2.jpeg" width="300" height="400">
+    <form action="add_to_cart.php" method="post">
+        <input type="hidden" name="product_name" value="ANIID BRACELET">
+        <input type="hidden" name="sku" value="SSJb21234">
+        <input type="hidden" name="price" value="3500.00">
+        <button type="submit">Add to Cart</button>
+    </form>
+</div>
+
+<div class="Product-Details" style="border: 2px solid black;">
+    <h2>DIAMOND & GOLD BRACELET</h2>
+    <p>Description of a product</p>
+    <p>Availability: Stock</p>
+    <p>SKU: SSJb31234</p>
+    <p>Price: M50 800.00</p>
+    <p>Available colors: Gold, pink(with diamond)</p>
+    <img src="brace3.jpeg" width="300" height="400">
+    <form action="add_to_cart.php" method="post">
+        <input type="hidden" name="product_name" value="DIAMOND & GOLD BRACELET">
+        <input type="hidden" name="sku" value="SSJb31234">
+        <input type="hidden" name="price" value="50800.00">
+        <button type="submit">Add to Cart</button>
+    </form>
+</div>
+
+<div class="Product-Details" style="border: 2px solid black;">
+    <h2>SPECIAL COMBO 1</h2>
+    <p>Description of a product</p>
+    <p>Availability: stock as a combo</P>
+    <p>SKU: SSJb41234</p>
+    <p>Price: M90 500.00</p>
+    <p>Available colors: Gold, green(with diamond)</p>
+    <video src="Bracelet.mp4" width="300" height="400"></video>
+    <form action="add_to_cart.php" method="post">
+        <input type="hidden" name="product_name" value="SPECIAL COMBO 1">
+        <input type="hidden" name="sku" value="SSJb41234">
+        <input type="hidden" name="price" value="90500.00">
+        <button type="submit">Add to Cart</button>
+    </form>
+</div>
+
+<div class="Product-Details" style="border: 2px solid black;">
+    <h2>DO CARTIER BRACELET</h2>
+    <p>Description of a product</p>
+    <p>Availability: stock</p>
+    <p>SKU: SSJb51234</p>
+    <p>Price: M6 000.00</p>
+    <p>Available colors: Gold, pink(with diamond)</p>
+    <img src="brace5.jpeg" width="300" height="400">
+    <form action="add_to_cart.php" method="post">
+        <input type="hidden" name="product_name" value="DO CARTIER BRACELET">
+        <input type="hidden" name="sku" value="SSJb51234">
+        <input type="hidden" name="price" value="6000.00">
+        <button type="submit">Add to Cart</button>
+    </form>
+</div>
+
+</div>
+
+</body>
+</html>

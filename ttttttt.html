@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .search-container {
+            display: flex;
+            margin: 10px;
+        }
+
+        .search-input {
+            padding: 10px;
+            width: 200px;
+            border: 1px solid #ccc;
+        }
+
+        .search-button {
+            padding: 10px 20px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="search-container">
+        <input type="text" class="search-input" id="searchInput" placeholder="Search...">
+        <button class="search-button" id="searchButton">Search</button>
+    </div>
+
+    <div id="searchResults">
+        <!-- Display search results here -->
+    </div>
+
+    <script>
+        const searchButton = document.getElementById("searchButton");
+        const searchInput = document.getElementById("searchInput");
+        const searchResults = document.getElementById("searchResults");
+
+        searchButton.addEventListener("click", function () {
+            // Get the search query from the input field
+            const query = searchInput.value;
+
+            // Perform the search operation here (e.g., via AJAX request)
+
+            // Display the search results in the searchResults div
+            searchResults.innerHTML = `<p>Search results for "${query}":</p>
+                <!-- Add your search results here -->
+            `;
+        });
+    </script>
+</body>
+</html>

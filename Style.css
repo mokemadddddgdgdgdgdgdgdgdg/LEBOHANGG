@@ -1,0 +1,46 @@
+body{
+     background-image: url("images.jpg");
+     background-repeat:no-repeat;
+     background-size: cover;
+     }
+
+ul.navbar{
+         list-style-type: none;
+         margin: 5px;
+         padding: 10px;
+         overflow: hiden;
+         background-color: burlywood;
+         overflow: hidden;
+         }
+
+ul.navbar  li{
+              float: left;
+              text-align: center;
+              padding: 15px 15px;
+              font-size: 25px;
+             }
+
+ul.navbar li a {
+                display: block;
+                color: aqua;
+                text-align: center;
+                padding: 15px 15px;
+                text-decoration: none;
+               }
+
+ul.navbar li a:hover {
+                     background-color: black;
+                     }
+.navbar li a.active {background-color:navy;}
+
+.SS{
+  margin-left:630px;
+  margin-top: 200px;
+  text-color: blue;
+  }
+
+
+
+
+
+
